@@ -1,0 +1,11 @@
+version: "3"
+
+services:
+  vcron_proxy:
+    image: app
+    build:
+      context: .
+    env_file: .env
+    restart: unless-stopped
+    ports:
+      - 5007:8000
