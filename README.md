@@ -1,3 +1,19 @@
+# Dev
+
+After cloning this repository:
+
+```powershell
+python -m venv .venv
+./.venv/Scripts/activate
+pip install -r requirements.txt
+```
+
+Then run flask dev server:
+
+```powershell
+flask run
+```
+
 # Deploy
 
 ```powershell
